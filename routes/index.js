@@ -2,7 +2,7 @@ var express = require('express')
 var router  = express.Router()
 
 // Handle POST request to '/start'
-router.get('/start', function (req, res) {
+router.post('/start', function (req, res) {
   // NOTE: Do something here to start the game
 
   // Response data
