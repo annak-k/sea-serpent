@@ -7,10 +7,13 @@ router.post('/start', function (req, res) {
 
   // Response data
   var data = {
-    color: "#DFFF00",
-    name: "Trump Snake",
-    head_url: "http://www.placecage.com/c/200/200", // optional, but encouraged!
-    taunt: "Let's do thisss thang!", // optional, but encouraged!
+    color: "#569496",
+    name: "Sea Serpent",
+    head_url: "https://gurupets.com/img/items/RainbowCupcake.gif", // optional, but encouraged!
+    taunt: "Watch my splash!", // optional, but encouraged!
+    head_type: "smile",
+    tail_type: "curled",
+    secondary_color: "#d0a95d"
   }
 
   return res.json(data)
