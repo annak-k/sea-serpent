@@ -109,7 +109,7 @@ router.post('/move', function (req, res) {
 
   // Response data
   var data = {
-    move: my_move, // one of: ['up','down','left','right']
+    move: "down", // one of: ['up','down','left','right']
     taunt: 'I\'ll drench you!', // optional, but encouraged!
   }
 
