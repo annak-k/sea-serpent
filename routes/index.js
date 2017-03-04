@@ -32,9 +32,8 @@ function getMySnake(snakes, id) {
     if(s.id == id) {
       return s;
     }
-  } else {
-    return false;
   }
+  return false;
 }
 
 function wallCheck(head, w, h) {
